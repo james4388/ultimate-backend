@@ -1,5 +1,5 @@
 consul:
-  host: localhost
+  host: ${{CONSUL_HOST}}
   port: 8500
 config:
   key: ultimatebackend/config/${{ service.name }}
